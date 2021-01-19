@@ -1,7 +1,7 @@
 library(readxl)
 library(tidyverse)
 library(tseries)
-
+#testing
 my_data<-read_xlsx("time series data (1).xlsx")
 test_list<-list()
 k<-length(my_data)-1
